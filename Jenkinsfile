@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('jenkins log') {
+      steps {
+        sh 'ls -la'
+      }
+    }
+
   }
 }
